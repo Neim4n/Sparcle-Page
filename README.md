@@ -9,5 +9,5 @@ The site is fully adaptive for different resolutions:
 
 ## Design 
 PSD template created by Vid Kraljic Radulovic.   
-➡ https://www.behance.net/charliethedesigner
+➡ https://www.behance.net/charliethedesigner  
 ➡ https://www.behance.net/gallery/84084575/FREE-Landing-Website-PSD-Clean-theme-Sparcle
