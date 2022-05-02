@@ -59,11 +59,13 @@ animOnScroll();
 /*=========Parallax==========*/
 let parallaxItems = document.querySelectorAll('.parallax-item');
 window.addEventListener('mousemove', function (e) {
-    Array.from(parallaxItems).forEach(item => {
-        let x = e.clientX / window.innerWidth;
-        let y = e.clientY / window.innerHeight;
-        item.style.transform = `translate(-${x * item.dataset.parallaxValueX}px,-${y * item.dataset.parallaxValueY}px)`;
-    })
+    if (window.innerWidth >= 1024) {
+        Array.from(parallaxItems).forEach(item => {
+            let x = e.clientX / window.innerWidth;
+            let y = e.clientY / window.innerHeight;
+            item.style.transform = `translate(-${x * item.dataset.parallaxValueX}px,-${y * item.dataset.parallaxValueY}px)`;
+        })
+    }
 });
 
 /*=========BurgerMenu==========*/
